@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <title>Documentation - BlueCherry IoT platform</title>
+  <meta name="description" content="An awesome docsify site for publishing some content on the web.">
+  <link rel="stylesheet" href="/lib/docsify/themes/core.min.css">
+  <link rel="stylesheet" href="/lib/docsify/themes/addons/vue.min.css">
+  <link rel="stylesheet" href="/lib/docsify-bluecherry/bluecherry.css">
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <script>
+    window.$docsify = {
+      name: 'BlueCherry IoT documentation',
+      logo: '/media/bluecherry-logo.svg',
+      auto2top: true,
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 3,
+      loadFooter: true,
+      search: {
+        placeholder: 'Type to search',
+        noData: 'No matches found.',
+        depth: 2,
+      }
+    };
+  </script>
+
+
+  <script src="/lib/docsify/docsify.min.js"></script>
+  <script src="/lib/docsify/plugins/zoom-image.min.js"></script>
+  <script src="/lib/docsify/plugins/search.min.js"></script>
+  <script src="/lib/docsify-plugin-flexible-alerts/docsify-plugin-flexible-alerts.min.js"></script>
+  <script src="/lib/docsify-tabs/docsify-tabs.min.js"></script>
+  <script src="/lib/docsify-footer/docsify-footer.min.js"></script>
+  <script src="/lib/docsify-copy-code/docsify-copy-code.min.js"></script>
+  <script src="/lib/prism/prism-bash.min.js"></script>
+  <script src="/lib/prism/prism-systemd.min.js"></script>
+  <script src="/lib/prism/prism-yaml.min.js"></script>
+</body>
+</html>

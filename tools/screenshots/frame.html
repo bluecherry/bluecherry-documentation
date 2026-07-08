@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>frame</title>
+<style>
+  /* --------------------------------------------------------------------
+     Browser-frame template for documentation screenshots.
+
+     capture.js drives this file: it injects the captured app image, the
+     URL text, and the exact content dimensions via CSS custom properties.
+     The defaults below just let you open frame.html on its own to preview
+     the chrome.
+     -------------------------------------------------------------------- */
+  :root {
+    --content-w: 1920px;   /* set by capture.js to match the viewport   */
+    --content-h: 1080px;
+    --toolbar-h: 44px;
+    --radius: 12px;
+    --pad: 64px;           /* backdrop breathing room around the window */
+    --backdrop: #eef1f5;
+    --accent: #1e63d0;
+
+    --chrome-bg: #f6f7f9;
+    --chrome-border: #e3e6ea;
+    --url-bg: #ffffff;
+    --url-text: #5b6472;
+    --dot-red: #ff5f57;
+    --dot-amber: #febc2e;
+    --dot-green: #28c840;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 Helvetica, Arial, sans-serif;
+  }
+
+  /* The stage is what gets screenshotted — includes padding so the
+     window's drop shadow isn't clipped. */
+  .stage {
+    display: inline-block;
+    padding: var(--pad);
+    background: var(--backdrop);
+  }
+
+  .window {
+    width: var(--content-w);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: #fff;
+    box-shadow:
+      0 1px 1px rgba(16, 24, 40, 0.04),
+      0 8px 16px rgba(16, 24, 40, 0.08),
+      0 24px 48px rgba(16, 24, 40, 0.12);
+  }
+
+  .toolbar {
+    height: var(--toolbar-h);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 16px;
+    background: var(--chrome-bg);
+    border-bottom: 1px solid var(--chrome-border);
+  }
+
+  .dots { display: flex; gap: 8px; flex: 0 0 auto; }
+  .dots i {
+    width: 12px; height: 12px; border-radius: 50%;
+    display: block;
+  }
+  .dots i:nth-child(1) { background: var(--dot-red); }
+  .dots i:nth-child(2) { background: var(--dot-amber); }
+  .dots i:nth-child(3) { background: var(--dot-green); }
+
+  /* disabled back / forward chevrons — realistic, quiet */
+  .nav { display: flex; gap: 14px; flex: 0 0 auto; color: #c2c8d0; }
+  .nav svg { width: 16px; height: 16px; display: block; }
+
+  .urlbar {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .url {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 62%;
+    height: 28px;
+    padding: 0 14px;
+    background: var(--url-bg);
+    border: 1px solid var(--chrome-border);
+    border-radius: 999px;
+    font-size: 13px;
+    line-height: 1;
+    color: var(--url-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .url svg { width: 13px; height: 13px; flex: 0 0 auto; color: var(--accent); }
+  .url span { overflow: hidden; text-overflow: ellipsis; }
+
+  /* balances the dots on the right so the url pill stays centered */
+  .spacer { flex: 0 0 auto; width: 52px; }
+
+  .viewport {
+    width: var(--content-w);
+    height: var(--content-h);
+    background: #fff;
+  }
+  .viewport img {
+    display: block;
+    width: var(--content-w);
+    height: var(--content-h);
+    object-fit: cover;
+  }
+</style>
+</head>
+<body>
+  <div class="stage" id="stage">
+    <div class="window">
+      <div class="toolbar">
+        <div class="dots"><i></i><i></i><i></i></div>
+        <div class="nav">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+        </div>
+        <div class="urlbar">
+          <div class="url">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+            <span id="url">app.bluecherry.io</span>
+          </div>
+        </div>
+        <div class="spacer"></div>
+      </div>
+      <div class="viewport">
+        <img id="shot" alt="">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

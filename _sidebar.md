@@ -1,0 +1,7 @@
+- Documentation
+    - [Introduction](README.md)
+    - [Notifications](documentation/notifications.md)
+    - [FOTA updates](documentation/fota-updates.md)
+    - [BlueCherry client](documentation/bluecherry-client.md)
+- Guides
+    - [Register & login](guides/register-and-login.md)

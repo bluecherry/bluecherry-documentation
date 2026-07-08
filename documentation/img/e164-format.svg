@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 230" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <!-- connector line behind the boxes -->
+  <line x1="58" y1="70" x2="678" y2="70" stroke="#C4C8D4" stroke-width="2"/>
+
+  <!-- + prefix box -->
+  <rect x="30" y="40" width="56" height="60" rx="8" fill="#113D6F"/>
+  <text x="58" y="71" fill="#FFFFFF" font-size="22" font-weight="600" text-anchor="middle" dominant-baseline="central">+</text>
+  <text x="58" y="120" fill="#5A6072" font-size="12" text-anchor="middle">prefix</text>
+  <text x="58" y="136" fill="#5A6072" font-size="12" text-anchor="middle">(not a digit)</text>
+
+  <!-- Country Code box -->
+  <rect x="131" y="40" width="140" height="60" rx="8" fill="#113D6F"/>
+  <text x="201" y="71" fill="#FFFFFF" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">Country Code</text>
+  <text x="201" y="120" fill="#5A6072" font-size="12" text-anchor="middle">1 – 3 digits</text>
+  <text x="201" y="136" fill="#5A6072" font-size="12" text-anchor="middle">never starts with 0</text>
+
+  <!-- National Destination Code box -->
+  <rect x="316" y="40" width="230" height="60" rx="8" fill="#113D6F"/>
+  <text x="431" y="71" fill="#FFFFFF" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">National Destination Code</text>
+
+  <!-- Subscriber Number box -->
+  <rect x="591" y="40" width="175" height="60" rx="8" fill="#113D6F"/>
+  <text x="678" y="71" fill="#FFFFFF" font-size="15" font-weight="600" text-anchor="middle" dominant-baseline="central">Subscriber Number</text>
+
+  <!-- shared annotation for NDC + SN -->
+  <text x="541" y="120" fill="#5A6072" font-size="12" text-anchor="middle">remaining digits (max 15 − country code)</text>
+
+  <!-- bracket spanning all digits -->
+  <path d="M 131 160 L 131 172 L 766 172 L 766 160" fill="none" stroke="#113D6F" stroke-width="2"/>
+  <line x1="448" y1="172" x2="448" y2="180" stroke="#113D6F" stroke-width="2"/>
+  <text x="448" y="200" fill="#113D6F" font-size="14" font-weight="600" text-anchor="middle">decimal digits (0 – 9) — maximum 15 in total</text>
+</svg>

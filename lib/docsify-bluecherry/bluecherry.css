@@ -1,0 +1,101 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .app-name {
+    order: 1;
+}
+
+.sidebar .search {
+    order: 2;
+}
+
+.sidebar-nav {
+    order: 3;
+}
+
+:root {
+    --theme-color: #113D6F;
+    --content-max-width: min(90%, 1100px);
+
+    /* Slightly larger sidebar text */
+    --sidebar-font-size: 16px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Sidebar section headings ("Documentation", "Guides") — big & light grey    */
+/* The heading is a bare text node inside <li class="group">, so we style the */
+/* <li> itself and reset the font on its nested link list.                    */
+/* -------------------------------------------------------------------------- */
+.sidebar-nav > ul > li.group {
+    font-weight: bold;
+    font-size: 24px;
+    color: #C6C6C3;
+    line-height: 1.3;
+    margin-top: 1.6rem;
+}
+
+.sidebar-nav > ul > li.group:first-child {
+    margin-top: 0.5rem;
+}
+
+/* Reset the nested links back to normal weight/size/colour */
+.sidebar-nav > ul > li.group > ul {
+    font-weight: normal;
+    font-size: var(--sidebar-font-size);
+    color: var(--sidebar-link-color);
+    margin-top: 0.4rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Nav links — leading ">" chevron, like the reference layout                 */
+/* Scoped to the main nav so the on-page TOC (.app-sub-sidebar) is untouched. */
+/* -------------------------------------------------------------------------- */
+.sidebar-nav > ul > li > ul > li > a.page-link,
+.sidebar-nav > ul > li > a.page-link {
+    position: relative;
+    padding-left: 1.1em;
+}
+
+.sidebar-nav > ul > li > ul > li > a.page-link::before,
+.sidebar-nav > ul > li > a.page-link::before {
+    content: "\203A"; /* › */
+    position: absolute;
+    left: 0.1em;
+    color: var(--theme-color);
+    opacity: 0.45;
+    font-weight: 700;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+/* Emphasise the chevron on hover and for the active page */
+.sidebar-nav > ul > li > ul > li > a.page-link:hover::before,
+.sidebar-nav > ul > li > a.page-link:hover::before,
+.sidebar-nav li.active > a.page-link::before {
+    opacity: 1;
+    transform: translateX(1px);
+}
+
+/* Selected page — bold */
+.sidebar-nav li.active > a.page-link {
+    font-weight: bold;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Navbar — capitalized (uppercase), spaced, slightly bolder                  */
+/* -------------------------------------------------------------------------- */
+.app-nav a {
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Copy-to-clipboard button — white text                                      */
+/* -------------------------------------------------------------------------- */
+.docsify-copy-code-button,
+.docsify-copy-code-button span {
+    color: #FFF;
+}
