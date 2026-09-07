@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1000 520"
+   width="1000"
+   height="520"
+   font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+   version="1.1"
+   id="svg57"
+   sodipodi:docname="bluecherry-lite-architecture.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview57"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.5730769"
+     inkscape:cx="90.967199"
+     inkscape:cy="150.33642"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg57" />
+  <defs
+     id="defs2">
+    <marker
+       id="arrow-1f2937"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#1f2937"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrow-9ca3af"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#9ca3af"
+         id="path2" />
+    </marker>
+  </defs>
+  <rect
+     width="1000"
+     height="520"
+     fill="#ffffff"
+     rx="12"
+     id="rect2" />
+  <text
+     x="500"
+     y="28"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="18"
+     text-anchor="middle"
+     font-weight="700"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text2">BlueCherry Lite: end-to-end architecture</text>
+  <rect
+     x="30"
+     y="60"
+     width="250"
+     height="400"
+     rx="12"
+     fill="#f3f4f6"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect3" />
+  <text
+     x="155"
+     y="82"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="15"
+     text-anchor="middle"
+     font-weight="700"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text3">Device</text>
+  <text
+     x="155"
+     y="100"
+     font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="11.5px"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text4">Walter, nRF91,... any MCU with a UDP stack</text>
+  <rect
+     x="50"
+     y="120"
+     width="210"
+     height="56"
+     rx="8"
+     fill="#ffffff"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect4" />
+  <text
+     x="155.0"
+     y="133.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text5">Your application</text>
+  <text
+     x="155.0"
+     y="151.0"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text6">publish(index, payload)</text>
+  <text
+     x="155.0"
+     y="166.0"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text7">message handler</text>
+  <rect
+     x="50"
+     y="190"
+     width="210"
+     height="70"
+     rx="8"
+     fill="#e8f0fe"
+     stroke="#2563eb"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect7" />
+  <text
+     x="155.0"
+     y="210.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text8">BlueCherry library</text>
+  <text
+     x="155.0"
+     y="228.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text9">sync state machine, queue,</text>
+  <text
+     x="155.0"
+     y="243.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text10">ZTP, OTA (LGPL, open source)</text>
+  <rect
+     x="50"
+     y="274"
+     width="210"
+     height="56"
+     rx="8"
+     fill="#ffffff"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect10" />
+  <text
+     x="155.0"
+     y="294.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text11">CoAP</text>
+  <text
+     x="155.0"
+     y="312.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text12">confirmable, 5 byte header</text>
+  <rect
+     x="50"
+     y="344"
+     width="210"
+     height="56"
+     rx="8"
+     fill="#fbe9ee"
+     stroke="#b3123a"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect12" />
+  <text
+     x="155.0"
+     y="364.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text13">DTLS 1.2 + CID / DTLS 1.3</text>
+  <text
+     x="155.0"
+     y="382.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text14">mutual X.509, ECDHE P-256</text>
+  <rect
+     x="50"
+     y="414"
+     width="210"
+     height="36"
+     rx="8"
+     fill="#ffffff"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect14" />
+  <text
+     x="155.0"
+     y="432.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="13"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text15">UDP / IP</text>
+  <rect
+     x="300"
+     y="200"
+     width="150"
+     height="120"
+     rx="60"
+     fill="#ffffff"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     stroke-dasharray="5 4"
+     opacity="1"
+     id="rect15" />
+  <text
+     x="375"
+     y="238"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text16">WiFi, Ethernet,</text>
+  <text
+     x="375"
+     y="255"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text17">LTE-M, NB-IoT,</text>
+  <text
+     x="375"
+     y="272"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text18">NB-IoT NTN</text>
+  <text
+     x="375"
+     y="289"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text19">(satellite)</text>
+  <line
+     x1="262"
+     y1="260"
+     x2="298"
+     y2="260"
+     stroke="#1f2937"
+     stroke-width="1.5"
+     marker-end="url(#arrow-1f2937)"
+     id="line19" />
+  <line
+     x1="298"
+     y1="260"
+     x2="262"
+     y2="260"
+     stroke="#1f2937"
+     stroke-width="1.5"
+     marker-end="url(#arrow-1f2937)"
+     id="line20" />
+  <line
+     x1="452"
+     y1="260"
+     x2="488"
+     y2="260"
+     stroke="#1f2937"
+     stroke-width="1.5"
+     marker-end="url(#arrow-1f2937)"
+     id="line21" />
+  <line
+     x1="488"
+     y1="260"
+     x2="452"
+     y2="260"
+     stroke="#1f2937"
+     stroke-width="1.5"
+     marker-end="url(#arrow-1f2937)"
+     id="line22" />
+  <text
+     x="375"
+     y="340"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="11"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text22">one UDP socket</text>
+  <text
+     x="375"
+     y="355"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="11"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text23">coap.bluecherry.io:5684</text>
+  <rect
+     x="490"
+     y="60"
+     width="480"
+     height="400"
+     rx="12"
+     fill="#f3f4f6"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect23" />
+  <text
+     x="730"
+     y="82"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="15"
+     text-anchor="middle"
+     font-weight="700"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text24">BlueCherry platform</text>
+  <text
+     x="730"
+     y="100"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text25">device layer is BlueCherry, application layer is yours</text>
+  <rect
+     x="510"
+     y="120"
+     width="150"
+     height="60"
+     rx="8"
+     fill="#fbe9ee"
+     stroke="#b3123a"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect25" />
+  <text
+     x="585.0"
+     y="135.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text26">ZTP server</text>
+  <text
+     x="585.0"
+     y="153.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text27">:5688</text>
+  <text
+     x="585.0"
+     y="168.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text28">issues certificates</text>
+  <rect
+     x="510"
+     y="230"
+     width="150"
+     height="60"
+     rx="8"
+     fill="#fbe9ee"
+     stroke="#b3123a"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect28" />
+  <text
+     x="585.0"
+     y="245.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text29">CoAP / DTLS</text>
+  <text
+     x="585.0"
+     y="263.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text30">front-end :5684</text>
+  <text
+     x="585.0"
+     y="278.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text31">terminates sessions</text>
+  <rect
+     x="510"
+     y="340"
+     width="150"
+     height="60"
+     rx="8"
+     fill="#ffffff"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect31" />
+  <text
+     x="585.0"
+     y="355.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text32">Device registry</text>
+  <text
+     x="585.0"
+     y="373.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text33">types, devices, certs,</text>
+  <text
+     x="585.0"
+     y="388.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text34">presence, firmware</text>
+  <rect
+     x="690"
+     y="230"
+     width="130"
+     height="60"
+     rx="8"
+     fill="#e8f0fe"
+     stroke="#2563eb"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect34" />
+  <text
+     x="755.0"
+     y="245.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text35">Bridge</text>
+  <text
+     x="755.0"
+     y="263.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text36">index &lt;-&gt; topic</text>
+  <text
+     x="755.0"
+     y="278.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text37">queue per device</text>
+  <rect
+     x="690"
+     y="340"
+     width="130"
+     height="60"
+     rx="8"
+     fill="#ffffff"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect37" />
+  <text
+     x="755.0"
+     y="355.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text38">OTA service</text>
+  <text
+     x="755.0"
+     y="373.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text39">chunked images</text>
+  <text
+     x="755.0"
+     y="388.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text40">per device type</text>
+  <rect
+     x="838"
+     y="230"
+     width="122"
+     height="60"
+     rx="8"
+     fill="#e8f0fe"
+     stroke="#2563eb"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect40" />
+  <text
+     x="899.0"
+     y="252.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text41">MQTT broker</text>
+  <text
+     x="899.0"
+     y="270.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text42">100% standard</text>
+  <rect
+     x="838"
+     y="120"
+     width="122"
+     height="60"
+     rx="8"
+     fill="#ffffff"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect42" />
+  <text
+     x="899.0"
+     y="142.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text43">Console &amp; API</text>
+  <text
+     x="899.0"
+     y="160.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text44">white-label</text>
+  <rect
+     x="838"
+     y="340"
+     width="122"
+     height="60"
+     rx="8"
+     fill="#e6f4ea"
+     stroke="#15803d"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect44" />
+  <text
+     x="899.0"
+     y="362.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text45">Your container</text>
+  <text
+     x="899.0"
+     y="380.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text46">business logic</text>
+  <line
+     x1="662"
+     y1="260"
+     x2="688"
+     y2="260"
+     stroke="#1f2937"
+     stroke-width="1.5"
+     marker-end="url(#arrow-1f2937)"
+     id="line46" />
+  <line
+     x1="688"
+     y1="260"
+     x2="662"
+     y2="260"
+     stroke="#1f2937"
+     stroke-width="1.5"
+     marker-end="url(#arrow-1f2937)"
+     id="line47" />
+  <line
+     x1="822"
+     y1="260"
+     x2="836"
+     y2="260"
+     stroke="#1f2937"
+     stroke-width="1.5"
+     marker-end="url(#arrow-1f2937)"
+     id="line48" />
+  <line
+     x1="836"
+     y1="260"
+     x2="822"
+     y2="260"
+     stroke="#1f2937"
+     stroke-width="1.5"
+     marker-end="url(#arrow-1f2937)"
+     id="line49" />
+  <line
+     x1="585"
+     y1="290"
+     x2="585"
+     y2="338"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     marker-end="url(#arrow-9ca3af)"
+     id="line50" />
+  <line
+     x1="585"
+     y1="182"
+     x2="585"
+     y2="228"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     marker-end="url(#arrow-9ca3af)"
+     id="line51" />
+  <line
+     x1="660"
+     y1="370"
+     x2="688"
+     y2="370"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     id="line52" />
+  <line
+     x1="755"
+     y1="338"
+     x2="755"
+     y2="292"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     marker-end="url(#arrow-9ca3af)"
+     id="line53" />
+  <line
+     x1="899"
+     y1="292"
+     x2="899"
+     y2="338"
+     stroke="#1f2937"
+     stroke-width="1.5"
+     marker-end="url(#arrow-1f2937)"
+     id="line54" />
+  <line
+     x1="899"
+     y1="338"
+     x2="899"
+     y2="292"
+     stroke="#1f2937"
+     stroke-width="1.5"
+     marker-end="url(#arrow-1f2937)"
+     id="line55" />
+  <line
+     x1="899"
+     y1="182"
+     x2="899"
+     y2="228"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     stroke-dasharray="4 3"
+     marker-end="url(#arrow-9ca3af)"
+     id="line56" />
+  <text
+     x="155"
+     y="480"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#b3123a"
+     id="text56">Compact binary protocol</text>
+  <text
+     x="730"
+     y="480"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#15803d"
+     id="text57">Plain MQTT from the broker onwards, no BlueCherry SDK in your code</text>
+</svg>

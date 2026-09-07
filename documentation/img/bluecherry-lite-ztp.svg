@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 900 700"
+   width="900"
+   height="700"
+   font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+   version="1.1"
+   id="svg44"
+   sodipodi:docname="bluecherry-lite-ztp.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview44"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.6985714"
+     inkscape:cx="340.87469"
+     inkscape:cy="348.82255"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg44" />
+  <defs
+     id="defs2">
+    <marker
+       id="arrow-1f2937"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#1f2937"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrow-2563eb"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#2563eb"
+         id="path2" />
+    </marker>
+  </defs>
+  <rect
+     width="900"
+     height="700"
+     fill="#ffffff"
+     rx="12"
+     id="rect2" />
+  <text
+     x="450"
+     y="26"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="16"
+     text-anchor="middle"
+     font-weight="700"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text2">Zero Touch Provisioning: the private key never leaves the device</text>
+  <rect
+     x="55.0"
+     y="50"
+     width="170"
+     height="50"
+     rx="8"
+     fill="#e8f0fe"
+     stroke="#2563eb"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect3" />
+  <text
+     x="140.0"
+     y="67.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text3">Device</text>
+  <text
+     x="140.0"
+     y="85.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text4">firmware knows only type_id</text>
+  <rect
+     x="365.0"
+     y="50"
+     width="170"
+     height="50"
+     rx="8"
+     fill="#fbe9ee"
+     stroke="#b3123a"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect4" />
+  <text
+     x="450.0"
+     y="67.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text5">ZTP server</text>
+  <text
+     x="450.0"
+     y="85.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text6">coap.bluecherry.io:5688</text>
+  <rect
+     x="675.0"
+     y="50"
+     width="170"
+     height="50"
+     rx="8"
+     fill="#f3f4f6"
+     stroke="#9ca3af"
+     stroke-width="1.5"
+     opacity="1"
+     id="rect6" />
+  <text
+     x="760.0"
+     y="67.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="14"
+     text-anchor="middle"
+     font-weight="600"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text7">BlueCherry CA</text>
+  <text
+     x="760.0"
+     y="85.5"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text8">root + intermediate, ECDSA P-256</text>
+  <line
+     x1="140.0"
+     y1="100"
+     x2="140.0"
+     y2="650"
+     stroke="#9ca3af"
+     stroke-width="1.2"
+     stroke-dasharray="4 4"
+     id="line8" />
+  <line
+     x1="450.0"
+     y1="100"
+     x2="450.0"
+     y2="650"
+     stroke="#9ca3af"
+     stroke-width="1.2"
+     stroke-dasharray="4 4"
+     id="line9" />
+  <line
+     x1="760.0"
+     y1="100"
+     x2="760.0"
+     y2="650"
+     stroke="#9ca3af"
+     stroke-width="1.2"
+     stroke-dasharray="4 4"
+     id="line10" />
+  <rect
+     x="154.0"
+     y="108.0"
+     width="190"
+     height="44"
+     rx="6"
+     fill="#fef3c7"
+     stroke="#b45309"
+     stroke-width="1"
+     opacity="1"
+     id="rect10" />
+  <text
+     x="249.0"
+     y="122.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text10">No certificate in storage?</text>
+  <text
+     x="249.0"
+     y="138.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text11">-&gt; start ZTP</text>
+  <line
+     x1="144"
+     y1="170.59993"
+     x2="446"
+     y2="170.59993"
+     stroke="#1f2937"
+     stroke-width="1.6"
+     marker-end="url(#arrow-1f2937)"
+     id="line11" />
+  <text
+     x="295"
+     y="161.59993"
+     font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="12.5px"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#ffffff"
+     stroke="#ffffff"
+     stroke-width="5"
+     stroke-linejoin="round"
+     opacity="0.9"
+     id="text12">DTLS handshake, server authentication only</text>
+  <text
+     x="295"
+     y="161.59993"
+     font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="12.5px"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text13">DTLS handshake, server authentication only</text>
+  <line
+     x1="144.0"
+     y1="215"
+     x2="446.0"
+     y2="215"
+     stroke="#2563eb"
+     stroke-width="1.6"
+     marker-end="url(#arrow-2563eb)"
+     id="line13" />
+  <text
+     x="295.0"
+     y="206.0"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#ffffff"
+     stroke="#ffffff"
+     stroke-width="5"
+     stroke-linejoin="round"
+     opacity="0.9"
+     id="text14">POST /v1/devid</text>
+  <text
+     x="295.0"
+     y="206.0"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text15">POST /v1/devid</text>
+  <text
+     x="295.0"
+     y="227"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="11"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#ffffff"
+     stroke="#ffffff"
+     stroke-width="5"
+     stroke-linejoin="round"
+     opacity="0.9"
+     id="text16">CBOR [ &quot;walter01&quot;, {0: MAC, 1: IMEI, 2: OOB challenge} ]</text>
+  <text
+     x="295.0"
+     y="227"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="11"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text17">CBOR [ &quot;walter01&quot;, {0: MAC, 1: IMEI, 2: OOB challenge} ]</text>
+  <rect
+     x="464.0"
+     y="220.0"
+     width="200"
+     height="76"
+     rx="6"
+     fill="#f3f4f6"
+     stroke="#9ca3af"
+     stroke-width="1"
+     opacity="1"
+     id="rect17" />
+  <text
+     x="564.0"
+     y="234.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text18">type allows ZTP?</text>
+  <text
+     x="564.0"
+     y="250.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text19">identifiers on allow-list?</text>
+  <text
+     x="564.0"
+     y="266.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text20">OOB challenge confirmed?</text>
+  <text
+     x="564.0"
+     y="282.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text21">-&gt; allocate device_id</text>
+  <line
+     x1="446.0"
+     y1="315"
+     x2="144.0"
+     y2="315"
+     stroke="#2563eb"
+     stroke-width="1.6"
+     marker-end="url(#arrow-2563eb)"
+     id="line21" />
+  <text
+     x="295.0"
+     y="306.0"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#ffffff"
+     stroke="#ffffff"
+     stroke-width="5"
+     stroke-linejoin="round"
+     opacity="0.9"
+     id="text22">2.05 Content</text>
+  <text
+     x="295.0"
+     y="306.0"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text23">2.05 Content</text>
+  <text
+     x="295"
+     y="327"
+     font-family="'JetBrains Mono', SFMono-Regular, Menlo, Consolas, monospace"
+     font-size="11px"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text25">CBOR 8 char device_id</text>
+  <rect
+     x="154.0"
+     y="342.0"
+     width="260"
+     height="60"
+     rx="6"
+     fill="#e6f4ea"
+     stroke="#15803d"
+     stroke-width="1"
+     opacity="1"
+     id="rect25" />
+  <text
+     x="284.0"
+     y="356.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text26">generate P-256 key pair (HW RNG)</text>
+  <text
+     x="284"
+     y="372"
+     font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="11.5px"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text27">build CSR: C=BE, CN=walter01.xxxxxxxx</text>
+  <text
+     x="284.0"
+     y="388.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text28">sign CSR with SHA-256</text>
+  <line
+     x1="144.0"
+     y1="430"
+     x2="446.0"
+     y2="430"
+     stroke="#2563eb"
+     stroke-width="1.6"
+     marker-end="url(#arrow-2563eb)"
+     id="line28" />
+  <text
+     x="295.0"
+     y="421.0"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#ffffff"
+     stroke="#ffffff"
+     stroke-width="5"
+     stroke-linejoin="round"
+     opacity="0.9"
+     id="text29">POST /v1/sign</text>
+  <text
+     x="295.0"
+     y="421.0"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text30">POST /v1/sign</text>
+  <text
+     x="295.0"
+     y="442"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="11"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#ffffff"
+     stroke="#ffffff"
+     stroke-width="5"
+     stroke-linejoin="round"
+     opacity="0.9"
+     id="text31">CBOR bstr( DER CSR )</text>
+  <text
+     x="295.0"
+     y="442"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="11"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text32">CBOR bstr( DER CSR )</text>
+  <line
+     x1="454.0"
+     y1="465"
+     x2="756.0"
+     y2="465"
+     stroke="#1f2937"
+     stroke-width="1.6"
+     marker-end="url(#arrow-1f2937)"
+     id="line32" />
+  <text
+     x="605.0"
+     y="456.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#ffffff"
+     stroke="#ffffff"
+     stroke-width="5"
+     stroke-linejoin="round"
+     opacity="0.9"
+     id="text33">sign CSR</text>
+  <text
+     x="605.0"
+     y="456.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text34">sign CSR</text>
+  <line
+     x1="756.0"
+     y1="495"
+     x2="454.0"
+     y2="495"
+     stroke="#1f2937"
+     stroke-width="1.6"
+     marker-end="url(#arrow-1f2937)"
+     id="line34" />
+  <text
+     x="605.0"
+     y="486.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#ffffff"
+     stroke="#ffffff"
+     stroke-width="5"
+     stroke-linejoin="round"
+     opacity="0.9"
+     id="text35">X.509 certificate (DER)</text>
+  <text
+     x="605.0"
+     y="486.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text36">X.509 certificate (DER)</text>
+  <line
+     x1="446.0"
+     y1="530"
+     x2="144.0"
+     y2="530"
+     stroke="#2563eb"
+     stroke-width="1.6"
+     marker-end="url(#arrow-2563eb)"
+     id="line36" />
+  <text
+     x="295.0"
+     y="521.0"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#ffffff"
+     stroke="#ffffff"
+     stroke-width="5"
+     stroke-linejoin="round"
+     opacity="0.9"
+     id="text37">2.05 Content</text>
+  <text
+     x="295.0"
+     y="521.0"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text38">2.05 Content</text>
+  <text
+     x="295.0"
+     y="542"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="11"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#ffffff"
+     stroke="#ffffff"
+     stroke-width="5"
+     stroke-linejoin="round"
+     opacity="0.9"
+     id="text39">CBOR bstr( DER certificate )</text>
+  <text
+     x="295.0"
+     y="542"
+     font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
+     font-size="11"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#6b7280"
+     id="text40">CBOR bstr( DER certificate )</text>
+  <rect
+     x="154.0"
+     y="558.0"
+     width="230"
+     height="44"
+     rx="6"
+     fill="#e6f4ea"
+     stroke="#15803d"
+     stroke-width="1"
+     opacity="1"
+     id="rect40" />
+  <text
+     x="269.0"
+     y="572.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text41">store key + certificate (NVS,</text>
+  <text
+     x="269.0"
+     y="588.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="11.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text42">secure element) via BIO handler</text>
+  <line
+     x1="144.0"
+     y1="630"
+     x2="446.0"
+     y2="630"
+     stroke="#1f2937"
+     stroke-width="1.6"
+     stroke-dasharray="5 4"
+     marker-end="url(#arrow-1f2937)"
+     id="line42" />
+  <text
+     x="295.0"
+     y="621.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#ffffff"
+     stroke="#ffffff"
+     stroke-width="5"
+     stroke-linejoin="round"
+     opacity="0.9"
+     id="text43">close ZTP session, connect to :5684 with mutual authentication</text>
+  <text
+     x="295.0"
+     y="621.0"
+     font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif"
+     font-size="12.5"
+     text-anchor="middle"
+     font-weight="normal"
+     dominant-baseline="middle"
+     fill="#1f2937"
+     id="text44">close ZTP session, connect to :5684 with mutual authentication</text>
+</svg>

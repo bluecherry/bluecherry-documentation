@@ -1,5 +1,6 @@
 - Documentation
     - [Introduction](README.md)
+    - [BlueCherry Lite](documentation/bluecherry-lite.md)
     - [Notifications](documentation/notifications.md)
     - [FOTA updates](documentation/fota-updates.md)
     - [BlueCherry client](documentation/bluecherry-client.md)
